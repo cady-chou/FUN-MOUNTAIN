@@ -137,7 +137,34 @@
             <div class="section" data-anchor="4thpage">
                 <div class="page4">
                     <div class="container">
-                        <h3>馬上預約你的第一個旅程</h3>
+                        <div class="heading-third">
+                            <h3>馬上預約你的第一個旅程</h3>
+                        </div>
+                        <div class="form">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">姓名</label>
+                                    <input type="text" class="form-control" id="name">
+                                    <label for="tel">電話</label>
+                                    <input type="tel" class="form-control" id="tel">
+                                    <label for="exampleInputEmail1">E-mail</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <label for="inputState">行程</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>宜蘭松蘿湖《兩天一夜》11/12-11/13</option>
+                                      <option selected>宜蘭松蘿湖《兩天一夜》11/20-11/21</option>
+                                      <option>嘉義水漾森林《兩天一夜》11/15-11/16</option>
+                                      <option>嘉義水漾森林《兩天一夜》11/18-11/19</option>
+                                      <option>阿里山眠月線《兩天一夜》11/8-11/9</option>
+                                      <option>阿里山眠月線《兩天一夜》11/23-11/24</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-info">聯絡我</button>
+                            </form>
+                            <small id="emailHelp" class="form-text text-muted">將有專人聯絡您說明行程，感謝您的報名，<br>有任何問題可加入官方line詢問。</small>
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -161,6 +188,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.js" integrity="sha512-eH2N2Zt2AeLuFlFvRSEeZcVeAESY+8nfIqhxx0XXEou6w/G4lLY3K8UKNYqi6e1pLXDduVF1KF/lbyxy3+X6OA==" crossorigin="anonymous"></script>
 </body>
+
 <script>
     $(document).ready(function() {
         $('#fullpage').fullpage({
