@@ -331,6 +331,7 @@ ul {
 
 .card-rwd {
     display: none;
+    --webkit-overflow-scrolling: touch;
 }
 
 @media (max-width:768px) {
