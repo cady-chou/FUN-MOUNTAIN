@@ -369,15 +369,6 @@ ul {
     /* Firefox */
 }
 
-.test {
-    /* display: -webkit-box; */
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-backface-visibility: hidden;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: initial;
-}
-
 
 /* 4thpage */
 
