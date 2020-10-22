@@ -170,18 +170,6 @@ ul {
     }
 }
 
-@media (max-width:426px) {
-    .heading1 {
-        font-size: 60px;
-        letter-spacing: 12px;
-    }
-    .heading2 {
-        font-size: 11px;
-        width: 100%;
-        text-align: center;
-    }
-}
-
 @media (max-width:376px) {
     .title {
         width: 100%;
@@ -263,15 +251,6 @@ ul {
     .col-lg-3 {
         width: 45%;
         margin-left: 10px;
-    }
-}
-
-@media (max-width:426px) {
-    .heading3 {
-        font-size: 24px;
-    }
-    .description {
-        font-size: 12px;
     }
 }
 
