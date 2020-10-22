@@ -25,6 +25,9 @@ ul {
     background-color: #ffffff;
 }
 
+
+/* nav */
+
 .side-nav {
     position: fixed;
     right: 0;
@@ -45,6 +48,18 @@ ul {
     font-size: 18px;
     font-weight: 600;
     color: #000000;
+}
+
+@media (max-width:768px) {
+    .side-nav__item {
+        width: 35px;
+    }
+}
+
+@media (max-width:376px) {
+    .side-nav {
+        bottom: 38%;
+    }
 }
 
 .side-nav__item span {
@@ -80,7 +95,7 @@ ul {
     top: 0;
     height: 50px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: rgba(256, 256, 256, 0.5);
     padding: 0;
     z-index: 50;
 }
@@ -97,6 +112,7 @@ ul {
 
 .navbar-collapse {
     text-align: right;
+    padding-right: 15px;
 }
 
 .heading {
@@ -108,34 +124,113 @@ ul {
     padding-left: 8px;
 }
 
-.heading1 {
-    width: 560px;
-    height: 110px;
-    /* background-color: rgba(0, 0, 0, 0.4);
-    color: #ffffff; */
+
+/* 1thpage */
+
+.title {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     z-index: 50;
+    width: 609px;
+}
+
+.heading1 {
+    font-size: 100px;
     font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 34px;
+    text-align: center;
 }
 
-.carousel-inner {
-    position: absolute;
-    top: 0;
+.heading2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-weight: 600;
+    width: 590px;
+    padding: 15px;
 }
 
-.carousel-inner img {
-    height: 577px;
+.fa-mountain {
+    font-size: 70px;
 }
+
+@media (max-width:768px) {
+    .heading1 {
+        font-size: 80px;
+        letter-spacing: 12px;
+        text-align: left;
+    }
+    .fa-mountain {
+        font-size: 60px;
+    }
+    .heading2 {
+        font-size: 15px;
+        width: 560px;
+    }
+}
+
+@media (max-width:376px) {
+    .title {
+        width: 100%;
+    }
+    .heading1 {
+        font-size: 50px;
+        letter-spacing: 5px;
+        padding-left: 15px;
+    }
+    .fa-mountain {
+        font-size: 38px;
+    }
+    .heading2 {
+        font-size: 10px;
+        width: 100%;
+    }
+}
+
+.banner-1,
+.banner-2,
+.banner-3,
+.banner-4,
+.banner-5 {
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+}
+
+.banner-1 {
+    background-image: url(../img/banner1.jpg);
+}
+
+.banner-2 {
+    background-image: url(../img/banner2.jpg);
+}
+
+.banner-3 {
+    background-image: url(../img/banner3.jpg);
+}
+
+.banner-4 {
+    background-image: url(../img/banner4.jpg);
+}
+
+.banner-5 {
+    background-image: url(../img/banner5.jpg);
+}
+
+
+/* 2thpage */
 
 .process {
     width: 100%;
     height: 150px;
     position: absolute;
     top: 15%;
-    /* background-color: #839dc4; */
+}
+
+.heading3 {
+    margin: 5px 0;
 }
 
 .logo1 {
@@ -148,10 +243,84 @@ ul {
     width: 150px;
 }
 
+@media (max-width:768px) {
+    .process {
+        top: 8%;
+        left: 10px;
+    }
+    .col-lg-3 {
+        width: 45%;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:376px) {
+    .process {
+        top: 4%;
+        left: 0;
+    }
+    .heading3 {
+        font-size: 22px;
+    }
+    .icon-process {
+        margin-top: 15px;
+        height: 90px;
+    }
+    .description {
+        font-size: 10px;
+    }
+}
+
+
+/* 3thpage */
+
+.heading4 {
+    margin: 10px 0;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    padding-top: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-1 {
+    background-image: url(../img/1.jpg);
+}
+
+.card-2 {
+    background-image: url(../img/2.jpg);
+}
+
+.card-3 {
+    background-image: url(../img/3.jpg);
+}
+
+@media (max-width:768px) {
+    .card-title {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:376px) {}
+
+
+/* 4thpage */
+
 .page4 {
     height: 100%;
     width: 100%;
-    background-image: url(../img/0.png);
+    background-image: url(../img/2.png);
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -169,4 +338,21 @@ ul {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (max-width:768px) {
+    .form {
+        margin-top: 30px;
+        width: 40%;
+    }
+}
+
+@media (max-width:376px) {
+    .form {
+        margin-top: 5px;
+        width: 70%;
+    }
+    .form-text {
+        font-size: 8px;
+    }
 }
