@@ -331,7 +331,6 @@ ul {
 
 .card-rwd {
     display: none;
-    --webkit-overflow-scrolling: touch;
 }
 
 @media (max-width:768px) {
@@ -359,8 +358,6 @@ ul {
     }
 }
 
-
-/* 
 .card-rwd::-webkit-scrollbar {
     display: none;
 }
@@ -368,14 +365,9 @@ ul {
 .card-rwd {
     -ms-overflow-style: none;
     /* IE and Edge */
-
-
-/* scrollbar-width: none;
-
-/* Firefox */
-
-
-/* } */
+    scrollbar-width: none;
+    /* Firefox */
+}
 
 
 /* 4thpage */
