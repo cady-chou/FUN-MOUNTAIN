@@ -160,7 +160,6 @@ ul {
     .heading1 {
         font-size: 80px;
         letter-spacing: 12px;
-        text-align: left;
     }
     .fa-mountain {
         font-size: 60px;
@@ -168,6 +167,18 @@ ul {
     .heading2 {
         font-size: 15px;
         width: 560px;
+    }
+}
+
+@media (max-width:426px) {
+    .heading1 {
+        font-size: 60px;
+        letter-spacing: 12px;
+    }
+    .heading2 {
+        font-size: 11px;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -186,6 +197,7 @@ ul {
     .heading2 {
         font-size: 10px;
         width: 100%;
+        text-align: left;
     }
 }
 
@@ -251,6 +263,15 @@ ul {
     .col-lg-3 {
         width: 45%;
         margin-left: 10px;
+    }
+}
+
+@media (max-width:426px) {
+    .heading3 {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 12px;
     }
 }
 
