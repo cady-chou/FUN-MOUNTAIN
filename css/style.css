@@ -372,6 +372,14 @@ ul {
     }
     .card {
         width: 60%;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+    .card-text {
+        padding-bottom: 15px;
+    }
+    .card-body {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .btn-plan {
         display: none;
@@ -384,6 +392,11 @@ ul {
     }
     .page3 {
         padding-top: 50px;
+    }
+    .more-plan {
+        text-align: center;
+        font-weight: 600;
+        color: #9b9b9b;
     }
 }
 
