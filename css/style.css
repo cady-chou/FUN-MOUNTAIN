@@ -254,7 +254,7 @@ ul {
 }
 
 .description {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 600;
 }
 
@@ -282,7 +282,10 @@ ul {
         height: 90px;
     }
     .description {
-        font-size: 10px;
+        font-size: 14px;
+    }
+    .u-mt-15 {
+        margin-top: 15px;
     }
 }
 
@@ -331,7 +334,7 @@ ul {
 .card-2,
 .card-3,
 .card-4 {
-    padding-top: 100px;
+    padding-top: 150px;
     background-size: cover;
     background-position: center;
 }
@@ -378,6 +381,15 @@ ul {
     }
     .btn-plan {
         display: none;
+    }
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        padding-top: 180px;
+    }
+    .page3 {
+        padding-top: 50px;
     }
 }
 
