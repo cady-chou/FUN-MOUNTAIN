@@ -63,6 +63,7 @@ ul {
     display: inline-block;
     margin-top: 8px;
     margin-bottom: 8px;
+    font-family: 'Poiret One', cursive;
     font-size: 18px;
     font-weight: 600;
     width: 40px;
@@ -145,12 +146,8 @@ ul {
     width: 609px;
 }
 
-.heading1 {
-    font-size: 100px;
-    font-weight: 600;
-    color: #ffffff;
-    letter-spacing: 34px;
-    text-align: center;
+.img-title {
+    width: 610px;
 }
 
 .heading2 {
@@ -165,9 +162,8 @@ ul {
 }
 
 @media (max-width:768px) {
-    .heading1 {
-        font-size: 80px;
-        letter-spacing: 12px;
+    .img-title {
+        width: 550px;
     }
     .fa-mountain {
         font-size: 60px;
@@ -181,9 +177,9 @@ ul {
     .title {
         width: 100%;
     }
-    .heading1 {
-        font-size: 70px;
-        letter-spacing: 5px;
+    .img-title {
+        width: 320px;
+        padding-left: 24px;
     }
     .fa-mountain {
         font-size: 45px;
