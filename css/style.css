@@ -471,4 +471,7 @@ label {
     .form-text {
         font-size: 14px;
     }
+    label {
+        padding-top: 7px;
+    }
 }
